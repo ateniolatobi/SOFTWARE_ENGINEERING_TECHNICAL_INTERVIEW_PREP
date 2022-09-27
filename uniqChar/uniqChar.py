@@ -8,9 +8,9 @@ class Solution:
         for i in range(len(word)):
             # print(char_hash[ord(word[i])])
             if char_hash[ord(word[i])] == False:
-            char_hash[ord(word[i])] = True
+                char_hash[ord(word[i])] = True
             else:
-            isRepeated = True
+                isRepeated = True
             break
         return isRepeated
 
